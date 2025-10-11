@@ -1,0 +1,47 @@
+import geometry;
+size(7cm,0);
+settings.tex="pdflatex";
+import math;
+
+
+// Define triangle points
+pair A = (0,0);
+pair B = (3,0);
+pair P = (2,3);
+
+// Draw points and labels
+dot(A); label("$A$", A, SW, red);
+dot(B); label("$B$", B, SE, red);
+dot(P); label("$P$", P, N, red);
+
+// Draw triangle sides
+draw(A--P, black+1bp);
+draw(B--P, black+1bp);
+
+// -------- Perpendicular bisectors --------
+// Midpoints of sides
+pair M1 = (A + P)/2; // midpoint of AP
+pair M2 = (B + P)/2; // midpoint of BP
+
+// Directions perpendicular to the sides
+pair dir1 = rotate(90)*(A - P); // perpendicular to AP
+pair dir2 = rotate(90)*(P - B); // perpendicular to BP
+
+// Intersection = circumcenter C
+pair C = extension(M1, M1 + dir1, M2, M2 + dir2);
+
+// Draw circumcenter
+dot(C); label("$C$", C, NE, blue);
+
+// Optional: draw perpendicular bisectors for visualization
+draw(M1--(M1 + dir1), dashed + gray);
+draw(M2--(M2 + dir2), dashed + gray);
+
+// Draw circumcircle
+real r = abs(C - A);
+draw(circle(C, r), heavygreen);
+
+draw(A--C--B);
+// -------- Angle bisector angle
+draw(arc(P, arcRadius, degrees(P-A), degrees(P-B)), blue);
+label("$\alpha$", P + 0.25*dir((degrees(P-A)+degrees(P-B))/2), blue);

@@ -3,13 +3,13 @@ A student-led exploration of 2D and 3D graphics, mathematical figures, and anima
 
 # File Strucures / Diretrix
 AsymptoteTutorial/
-├── README.md                  # Project overview and usage instructions
-├── LICENSE.md                   # Licensing information (e.g., CC BY-NC 4.0)
-|--- Reference      # Reference for drawing shapes or for cloning
-├── 2D_Figures/              # Basic and annotated 2D diagrams
-│   ├── 1-1.asy
-│   ├── 1-2.asy
-│   └── ...
+|--- README.md                  # Project overview and usage instructions
+|---LICENSE.md                   # Licensing information (e.g., CC BY-NC 4.0)
+|--- Reference              # Reference for drawing shapes or for cloning
+|---2D_Figures/              # Basic and annotated 2D diagrams
+│   |--- 1-1.asy
+│   |--- 1-2.asy
+│   |--- ...
 ├── 2D_Graphs/                # Function plots and parametric curves
 │   ├── function_plots.asy
 │   ├── parametric_curves.asy

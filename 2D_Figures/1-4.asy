@@ -33,7 +33,7 @@ pair C = extension(M1, M1 + dir1, M2, M2 + dir2);
 // Draw circumcenter
 dot(C); label("$C$", C, NE, blue);
 
-// Optional: draw perpendicular bisectors for visualization
+// draw perpendicular bisectors for visualization
 draw(M1--(M1 + dir1), dashed + gray);
 draw(M2--(M2 + dir2), dashed + gray);
 
@@ -43,5 +43,9 @@ draw(circle(C, r), heavygreen);
 
 draw(A--C--B);
 // -------- Angle bisector angle
-draw(arc(P, arcRadius, degrees(P-A), degrees(P-B)), blue);
-label("$\alpha$", P + 0.25*dir((degrees(P-A)+degrees(P-B))/2), blue);
+real arcRadius = 0.2;
+draw(arc(P, arcRadius, 180+degrees(P-A), 180+degrees(P-B)), blue);
+label("$\alpha$", P + 0.3*dir(180+(degrees(P-A)+degrees(P-B))/2), blue);
+
+draw(arc(C, arcRadius, 180+degrees(C-A), 180+degrees(C-B)), blue);
+label("$2\alpha$", C + 0.3*dir(180+(degrees(C-A)+degrees(C-B))/2), blue);

@@ -29,3 +29,17 @@ AsymptoteTutorial/
 └── assets/                   # Supporting media files
     ├── images/
     └── gifs/
+
+# Build
+
+## Simple way to compile Asymptote file is:
+
+```
+asy figname.asy //or simply figname
+```
+
+## To export as ```html``` or ```svg``` or etc. 
+
+```
+asy -f html filename
+```

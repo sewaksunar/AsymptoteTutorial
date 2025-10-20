@@ -49,3 +49,28 @@ label("$\alpha$", P + 0.3*dir(180+(degrees(P-A)+degrees(P-B))/2), blue);
 
 draw(arc(C, arcRadius, 180+degrees(C-A), 180+degrees(C-B)), blue);
 label("$2\alpha$", C + 0.3*dir(180+(degrees(C-A)+degrees(C-B))/2), blue);
+
+
+class TriangleGeometry(Scene):
+    def construct(self):
+        # Define points
+        A = np.array([0, 0, 0])
+        B = np.array([3, 0, 0])
+        P = np.array([2, 3, 0])
+
+        # Draw triangle sides
+        triangle = Polygon(A, B, P, color=WHITE)
+        self.play(Create(triangle))
+
+        # Draw and label points
+        A_dot = Dot(A, color=RED)
+        B_dot = Dot(B, color=RED)
+        P_dot = Dot(P, color=RED)
+        labels = VGroup(
+            Tex("$A$").next_to(A, DOWN+LEFT, buff=0.1).set_color(RED),
+            Tex("$B$").next_to(B, DOWN+RIGHT, buff=0.1).set_color(RED),
+            Tex("$P$").next_to(P, UP, buff=0.1).set_color(RED),
+        )
+
+        self.play(FadeIn(A_dot, B_dot, P_dot), Write(labels))
+        self.wait(0.5)

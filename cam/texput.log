@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=latex 2026.2.9)  2 MAR 2026 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=latex 2026.2.9)  2 MAR 2026 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -147,7 +147,7 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *\makeatother%
 
-*\fontsize{9.03375}{10.8405}\selectfont%
+*\fontsize{9}{10.8}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -155,155 +155,12 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\phi$}
-LaTeX Font Info:    Calculating math sizes for size <9.03375> on input line 0.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.51688> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.51688> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.51688> not available
-(Font)              size <5> substituted on input line 0.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.03375> on input line 0.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.3236> on input line 0.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.51688> on input line 0.
+*\setbox\ASYbox=\hbox{O}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.50552pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.25pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.75pt)dim
-
-*\fontsize{8.03}{9.636}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$R_2$}
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 0.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 0.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.03> on input line 0.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.62097> on input line 0.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.015> on input line 0.
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.56842pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.46666pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.1111pt)dim
-
-*\fontsize{8.03}{9.636}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$R_3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.56842pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.46666pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.1111pt)dim
-
-*\fontsize{8.03}{9.636}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{{\footnotesize Line of action}}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(60.4168pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.94444pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{7.02625}{8.4315}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{{\footnotesize Common tangent}}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(75.83351pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.83331pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.94444pt)dim
-
-*\fontsize{9.03375}{10.8405}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$P$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(7.19058pt)dim
+>dim(7.1944pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(6.14998pt)dim
@@ -311,7 +168,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\fontsize{12}{14.4}\selectfont%
+*\fontsize{10}{12}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -319,26 +176,196 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$O_2$}
+*\setbox\ASYbox=\hbox{$v_{B/O_1}$}
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 0.
+(Font)              <7> on input line 0.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 0.
+(Font)              <5> on input line 0.
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(25.81277pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.55557pt)dim
+
+*\fontsize{10}{12}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{C/O_2}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(25.44048pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.55557pt)dim
+
+*\fontsize{10}{12}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{slip}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(18.64264pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.86108pt)dim
+
+*\fontsize{10}{12}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_D$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(12.101pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.49998pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{closure}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(25.55453pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{VELOCITY POLYGON}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(118.09286pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{CONSTRAINT EQUATIONS}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(144.7835pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.12917pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{At joint B:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(44.06357pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.14998pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.75pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\vec{v}_B^{abs} = \vec{v}_{B/O_1}$}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 0.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 0.
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(13.72969pt)dim
+>dim(52.6716pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
+>dim(7.98996pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.79999pt)dim
+>dim(2.90002pt)dim
 
-*\fontsize{12}{14.4}\selectfont%
+*\fontsize{8}{9.6}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -346,20 +373,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$O_3$}
+*\setbox\ASYbox=\hbox{velocity of crank point}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(13.72969pt)dim
+>dim(83.82759pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
+>dim(5.55556pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.79999pt)dim
+>dim(1.55556pt)dim
 
-*\fontsize{9.03375}{10.8405}\selectfont%
+*\fontsize{9}{10.8}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -367,20 +394,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$A$}
+*\setbox\ASYbox=\hbox{$\vec{v}_B = \vec{v}_{C/O_2} + \vec{v}_{slip}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.93605pt)dim
+>dim(75.773pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.14998pt)dim
+>dim(6.44pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
+>dim(2.90002pt)dim
 
-*\fontsize{9.03375}{10.8405}\selectfont%
+*\fontsize{8}{9.6}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -388,20 +415,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$B$}
+*\setbox\ASYbox=\hbox{B on link O$_2$D (slotted)}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 0.
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(7.4475pt)dim
+>dim(89.20673pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.14998pt)dim
+>dim(6.0pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
+>dim(2.0pt)dim
 
-*\fontsize{9.03375}{10.8405}\selectfont%
+*\fontsize{9}{10.8}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -409,83 +438,856 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$C$}
+*\setbox\ASYbox=\hbox{At block D:}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(7.24286pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.14998pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{9.03375}{10.8405}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$D$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(7.88452pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(6.14998pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{9.03375}{10.8405}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\phi$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.50552pt)dim
+>dim(47.40382pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(6.25pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.75pt)dim
+>dim(0.0pt)dim
 
-*\fontsize{8.03}{9.636}\selectfont%
+*\fontsize{9}{10.8}\selectfont%
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$R_2$}
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\vec{v}_D = v_D \hat{\mathbf{i}}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.56842pt)dim
+>dim(37.6458pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.46666pt)dim
+>dim(8.62502pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.00003pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{D slides horizontally}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(76.00804pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.55556pt)dim
+
+*\fontsize{10}{12}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{CLOSURE CONDITION:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(114.44466pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.83331pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\vec{v}_{B/O_1} + \vec{v}_{C/O_2} + \vec{v}_{slip} + \ve
+c{v}_D = \vec{0}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(127.5266pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.365pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.90002pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{VECTOR COMPONENTS}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(132.00851pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{B/O_1}$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(61.61124pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.24445pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{perpendicular to crank O$_1$B}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(98.05605pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.8611pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.3611pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{C/O_2}$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(61.28778pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.24445pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{perpendicular to link O$_2$D}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(92.34769pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.8611pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.3611pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{slip}$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(54.86934pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.57779pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{along slot direction (O$_2$D)}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(92.28659pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.25pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.75pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_D$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(48.6083pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.34445pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{horizontal (sliding constraint)}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(104.28105pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.25pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.75pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{LEGEND}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(46.91777pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{relative to O$_1$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(51.39645pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(1.1111pt)dim
 
-*\setbox\ASYbox=\hbox{$R_3$}
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{relative to O$_2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.56842pt)dim
+>dim(51.39645pt)dim
 
-*\immediate\write16{>dim(\the\ht\ASY
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.1111pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{sliding velocity}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(55.53413pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.55556pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{absolute velocity}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(62.14534pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.55556pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{O}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(7.1944pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.14998pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{10}{12}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{B/O_1}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(25.81277pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.55557pt)dim
+
+*\setbox\ASYbox=\hbox{$v_{C/O_2}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(25.44048pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.55557pt)dim
+
+*\setbox\ASYbox=\hbox{$v_{slip}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(18.64264pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.86108pt)dim
+
+*\setbox\ASYbox=\hbox{$v_D$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(12.101pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.30554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.49998pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{closure}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(25.55453pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{VELOCITY POLYGON}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(118.09286pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{CONSTRAINT EQUATIONS}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(144.7835pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.12917pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{At joint B:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(44.06357pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.14998pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.75pt)dim
+
+*\setbox\ASYbox=\hbox{$\vec{v}_B^{abs} = \vec{v}_{B/O_1}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(52.6716pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.98996pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.90002pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{velocity of crank point}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(83.82759pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.55556pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\vec{v}_B = \vec{v}_{C/O_2} + \vec{v}_{slip}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(75.773pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.44pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.90002pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{B on link O$_2$D (slotted)}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(89.20673pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.0pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.0pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{At block D:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(47.40382pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.25pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$\vec{v}_D = v_D \hat{\mathbf{i}}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(37.6458pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.62502pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.00003pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{D slides horizontally}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(76.00804pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.55556pt)dim
+
+*\fontsize{10}{12}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{CLOSURE CONDITION:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(114.44466pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(6.83331pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{9}{10.8}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\vec{v}_{B/O_1} + \vec{v}_{C/O_2} + \vec{v}_{slip} + \ve
+c{v}_D = \vec{0}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(127.5266pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.365pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.90002pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{VECTOR COMPONENTS}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(132.00851pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{B/O_1}$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(61.61124pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.24445pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{perpendicular to crank O$_1$B}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(98.05605pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.8611pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.3611pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{C/O_2}$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(61.28778pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.24445pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{perpendicular to link O$_2$D}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(92.34769pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(4.8611pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.3611pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_{slip}$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(54.86934pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.57779pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{along slot direction (O$_2$D)}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(92.28659pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.25pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.75pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$v_D$ direction:}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(48.6083pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.55556pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.34445pt)dim
+
+*\fontsize{7}{8.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{horizontal (sliding constraint)}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(104.28105pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.25pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.75pt)dim
+
+*\fontsize{11}{13.2}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{LEGEND}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(46.91777pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.48248pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{8}{9.6}\selectfont%
+
+*
+(Please type a command

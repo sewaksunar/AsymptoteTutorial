@@ -1,253 +1,242 @@
 import fontsize;
 import patterns;
 
-// define hatch patterns for later use
-add("hatch",hatch());
-// hatch takes (spacing, direction) so supply 3mm then NW
-add("hatchback",hatch(3mm, NW));
-add("crosshatch",crosshatch(2mm));
+// layout settings
+settings.outformat = "pdf";
 
-settings.outformat="pdf";
+// hatch patterns used throughout
+add("hatch", hatch());
+add("hatchback", hatch(3mm, NW));
+add("crosshatch", crosshatch(2mm));
 
-pair O = (0,0);
-pair A = (0,400);
-real ab = 150;
-real oc = 700;
-pair B = A + ab*dir(45+90);
+// prepare separate pictures for output
+picture sp, velp, accp;
 
-// vertical radius from O to A
-// fill the region to the right of OA with a hatch pattern
-// (choose a reasonable horizontal extent for visualization)
-fill(O--(20,0)--(20,400)--A--cycle, pattern("hatch"));
-draw(O--A);
-// draw AB which is at 45° to AO on the left side (starting from A)
-draw(B--A);
+// -----------------------------------------------------------
+//  Primary geometry
+// -----------------------------------------------------------
+currentpicture = sp; // draw geometry into space picture
 
-// mark and label points
-for(pair P : new pair[]{O,A,B}) {
-    dot(P, blue+3pt);
+pair origin = (0,0);
+pair pointA = (0,400);
+real lengthAB = 150;
+real lengthOC = 700;
+pair pointB = pointA + lengthAB*dir(135); // 45° left from vertical
+
+// fill to right of OA
+fill(origin--(20,0)--(20,400)--pointA--cycle, pattern("hatch"));
+draw(origin--pointA);
+draw(pointB--pointA);
+
+// mark reference points
+for(pair p : new pair[]{origin, pointA, pointB}) {
+    dot(p, blue+3pt);
 }
-label("$O$", O, SW);
-label("$A$", A, NE);
+label("$O$", origin, SW);
+label("$A$", pointA, NE);
 
-// horizontal dashed line 300 units long ending at A
-pair H = A + (0, 300);      // the line has constant y = H.y
-draw(H+(-80, 0)--H+(80, 0), dashdotted);
+// horizontal auxiliary line above A
+pair horizon = pointA + (0,300);
+draw(horizon + (-80,0) -- horizon + (80,0), dashdotted);
 
-// --- new material ----------------------------------------------
-// C is on the ray from O through B; OC has length 700
-pair C = oc*unit(B);         // unit(B) is the direction of OB
-// draw the radius OC
-draw(O--C, red);
+// point C on OB direction with specified length
+pair pointC = lengthOC * unit(pointB);
+draw(origin--pointC, red);
+dot(pointC, blue+3pt);
+label("$C$", pointC, NE);
 
-dot(C, blue+3pt);
-label("$C$", C, NE);
+// locate D on horizontal line through horizon so that CD = 200
+guide horizSeg = horizon + (-100,0) -- horizon + (20,0);
+guide circleC = circle(pointC,200);
+pair[] Dpts = intersectionpoints(circleC, horizSeg);
+pair pointD;
+if (Dpts.length>0) pointD = Dpts[0];
+else pointD = horizon;
 
-// find a point D on the horizontal line through H such that CD = 200
-guide L = H+(-100,0) -- H+(20,0);         // the dashed horizontal segment
-guide circ = circle(C, 200);              // circle centered at C, radius 200
-pair[] Ds = intersectionpoints(circ, L);  // intersection(s) of the circle with L
+draw(pointC--pointD, green);
+dot(pointD, blue+3pt);
+label("$D$", pointD, S);
 
-pair D;
-if (Ds.length > 0) {
-    // pick the first intersection; you can choose Ds[1] if you prefer the other
-    D = Ds[0];
-} else {
-    // no intersection (the circle does not meet the segment); fall back
-    D = H;
-}
+// rectangle at B oriented along OC
+pair dirOC = unit(pointC - origin);
+pair perpOC = rotate(90)*dirOC;
+real rectB_w = 60, rectB_h = 40;
+pair[] Brect = new pair[4];
+Brect[0] = pointB - (rectB_w/2)*dirOC - (rectB_h/2)*perpOC;
+Brect[1] = pointB + (rectB_w/2)*dirOC - (rectB_h/2)*perpOC;
+Brect[2] = pointB + (rectB_w/2)*dirOC + (rectB_h/2)*perpOC;
+Brect[3] = pointB - (rectB_w/2)*dirOC + (rectB_h/2)*perpOC;
+path rectB = Brect[0] -- Brect[1] -- Brect[2] -- Brect[3] -- cycle;
+fill(rectB, lightcyan+opacity(0.4));
+draw(rectB);
+dot(pointB, red+2pt);
+label("$B$", pointB, SW);
 
-draw(C--D, green);          // crank CD
-dot(D, blue+3pt);
-label("$D$", D, S);
+// rectangle at D axis-aligned
+pair horiz = (1,0), vert = (0,1);
+real rectD_w = 60, rectD_h = 40;
+pair[] Drect = new pair[4];
+Drect[0] = pointD - (rectD_w/2)*horiz - (rectD_h/2)*vert;
+Drect[1] = pointD + (rectD_w/2)*horiz - (rectD_h/2)*vert;
+Drect[2] = pointD + (rectD_w/2)*horiz + (rectD_h/2)*vert;
+Drect[3] = pointD - (rectD_w/2)*horiz + (rectD_h/2)*vert;
+path rectD = Drect[0] -- Drect[1] -- Drect[2] -- Drect[3] -- cycle;
+fill(rectD, lightred+opacity(0.4));
+draw(rectD);
+dot(pointD, red+2pt);
+label("$D$", pointD, S);
 
-// optional: draw the circle for reference
-// draw(circ, dashed+white);
+// hatch areas on D rectangle
+add("hatchback", hatch(1mm, NW));
+path hatchArea1 = Drect[0]+(-20,0) -- Drect[1]+(20,0) -- Drect[1]+(20,-10) -- Drect[0]+(-20,-10) -- cycle;
+fill(hatchArea1, pattern("hatchback"));
+add("hatchback", hatch(1mm, SE));
+path hatchArea2 = Drect[2]+(20,0) -- Drect[3]+(-20,0) -- Drect[3]+(-20,10) -- Drect[2]+(20,10) -- cycle;
+fill(hatchArea2, pattern("hatchback"));
 
-// place rectangle parallel to OC centred at B
-// direction along OC and a perp‑direction
-pair u = unit(C - O);            // same as unit(C) since O=(0,0)
-pair v = rotate(90)*u;
+// finish space diagram and export without opening viewer
+shipout("space", sp, Portrait, "pdf", false, false);
 
-// size of the little rectangle (full lengths)
-real rw = 60;                    // length parallel to OC
-real rh = 40;                    // length perpendicular to OC
-
-// compute four corners centered at B
-pair P1 = B - (rw/2)*u - (rh/2)*v;
-pair P2 = B + (rw/2)*u - (rh/2)*v;
-pair P3 = B + (rw/2)*u + (rh/2)*v;
-pair P4 = B - (rw/2)*u + (rh/2)*v;
-
-path rect = P1 -- P2 -- P3 -- P4 -- cycle;
-
-fill(rect, lightcyan+opacity(0.4));
-draw(rect);
-// mark centre for clarity
-dot(B, red+2pt);
-label("$B$", B, SW);
-
-// ---------- rectangle at D parallel to horizontal ----------
-// horizontal direction and vertical perp
-pair uH = (1,0);
-pair vH = (0,1);
-
-real rw2 = 60;   // width along horizontal
-real rh2 = 40;   // height vertical
-
-pair Q1 = D - (rw2/2)*uH - (rh2/2)*vH;
-pair Q2 = D + (rw2/2)*uH - (rh2/2)*vH;
-pair Q3 = D + (rw2/2)*uH + (rh2/2)*vH;
-pair Q4 = D - (rw2/2)*uH + (rh2/2)*vH;
-
-path rect2 = Q1 -- Q2 -- Q3 -- Q4 -- cycle;
-fill(rect2, lightred+opacity(0.4)); draw(rect2);
-// label D center
-dot(D, red+2pt);
-label("$D$", D, S);
-add("hatchback",hatch(1mm, NW));
-path rectt = Q1+(-20, 0) -- Q2 +(20, 0) -- Q2+(20, -10) -- Q1+(-20, -10)--cycle;
-fill(rectt, pattern("hatchback"));
-add("hatchback",hatch(1mm, SE));
-path rectt = Q3+(20, 0) -- Q4+(-20, 0) -- Q4+(-20, 10) -- Q3+(20, 10)--cycle;
-fill(rectt, pattern("hatchback"));
-
-
-// #########
+// -----------------------------------------------------------
 // Velocity diagram
-//#############
+// -----------------------------------------------------------
+currentpicture = velp;
 
-real scale = 100;
-// polar point
-pair o = O + (-200, 100);
-dot("$o, a$", o);
+real vScale = 100;
+pair vel_origin = origin + (-200,100);
+dot("$o, a$", vel_origin);
 
-// vBA , oa liine
-pair v = B - A;
-pair n = unit(rotate(90)*v);
-real len =  12.57 * 0.15 * scale; //velocity V_BA = omega * AB
-pair b = o + len*n;
-draw(o -- b, gray, Arrow(8));
-dot("$b$", b, SW);
+pair vecBA = pointB - pointA;
+pair normalBA = unit(rotate(90)*vecBA);
+real velBA_len = 12.57 * 0.15 * vScale;
+pair vel_b = vel_origin + velBA_len * normalBA;
+draw(vel_origin--vel_b, gray, Arrow(8));
+dot("$b$", vel_b, SW);
 
-//// ob construction 
-pair v = B - O;
-pair n = unit(rotate(90)*v);
-real len = 300; // velocity VCO = omegaB'O * OC
-pair c = o + len*n;
-draw(o -- c, gray+dashed);
+pair vecOB = pointB - origin;
+pair normalOB = unit(rotate(90)*vecOB);
+real velOC_temp_len = 300;
+pair vel_c_temp = vel_origin + velOC_temp_len * normalOB;
+draw(vel_origin--vel_c_temp, gray+dashed);
 
-// VBB', bb'
-pair v = c-o;
-pair n = unit(rotate(-90)*v);
-real len = 200; //say
-pair b1 = b + len*n;
-draw(b--b1, gray+dashed);
+pair normalBBp = unit(rotate(-90)*(vel_c_temp - vel_origin));
+real velBBp_len = 200;
+pair vel_b1_temp = vel_b + velBBp_len * normalBBp;
+draw(vel_b--vel_b1_temp, gray+dashed);
 
-// find intersection of oc and bb1 line
-pair b1 = intersectionpoint(o--c, b--b1);
-dot(b1, blue+3pt);
-label("$b'$", b1, NW);
-draw(b--b1, gray, Arrow(8));
+pair vel_b1 = intersectionpoint(vel_origin--vel_c_temp, vel_b--vel_b1_temp);
+dot(vel_b1, blue+3pt);
+label("$b1$", vel_b1, NW);
+draw(vel_b--vel_b1, gray, Arrow(8));
 
+real len_bb1 = length(vel_b1 - vel_b);
+draw(vel_origin--vel_b1, gray, Arrow(8));
 
-// find the length of bb' line
-real len_bb1 = length(b1 - b);
+pair dirOBp = unit(vel_b1 - vel_origin);
+real vel_c_len = (length(pointC-origin)/length(pointB-origin))*length(vel_b1-vel_origin);
+pair vel_c = vel_origin + vel_c_len * dirOBp;
+draw(vel_origin--vel_c, gray, Arrow(8));
+dot("$c$", vel_c, SW);
 
-// vB'O, ob line 
-draw(o -- b1, gray, Arrow(8));
+pair normalCD = unit(rotate(90)*(vel_origin - vel_c));
+real velCD_len = 100;
+pair vel_d_temp = vel_c + velCD_len * normalCD;
+draw(vel_c--vel_d_temp, gray+dashed);
 
-// oc
-pair v = b1-o;
-pair n = unit(v);
-real len =  (700/length(O-B))*length(b1-o);///oc = OC/OB' * ob'
-pair c = o + len*n;
-draw(o--c, gray, Arrow(8));
-dot("$c$", c, SW);
+pair vel_d2 = vel_origin - (300,0);
+draw(vel_origin--vel_d2, gray+dashed);
 
-// cd construciton
-pair v = o-c;
-pair n = unit(rotate(90)*v);
-real len = 100;
-pair d1 = c + len*n;
-draw(c--d1, gray+dashed);
+pair vel_d = intersectionpoint(vel_c--vel_d_temp, vel_origin--vel_d2);
+dot(vel_d, blue+3pt);
+label("$d$", vel_d, SW);
+draw(vel_c--vel_d, gray, Arrow(8));
+draw(vel_origin--vel_d, gray, Arrow(8));
 
-// od construxtion
-pair v = o;
-real len = 300;
-pair d2 = v - (len, 0);
-draw(o--d2, gray+dashed);
+write("$v_{B/B'}=$", len_bb1/vScale);
+write("$v_{D}=$", length(vel_origin-vel_d)/vScale);
+write("$v_{D/C}=$", length(vel_d-vel_c)/vScale);
+write("$v_{C/O}=$", length(vel_c-vel_origin)/vScale);
 
+// export velocity diagram without opening viewer
+shipout("velocity", velp, Portrait, "pdf", false, false);
 
-// find intersection of od and cd
-pair d = intersectionpoint(c--d1, o--d2);
-dot(d, blue+3pt);
-label("$d$", d, SW);
+// -----------------------------------------------------------
+// Acceleration diagram
+// -----------------------------------------------------------
+currentpicture = accp;
 
-draw(c--d, gray, Arrow(8));
-draw(o--d, gray, Arrow(8));
+pair acc_origin = (-400,400);
+dot("$o, a$", acc_origin);
 
-write("$v_{B/B'}=$", len_bb1/scale);
-write("$v_{D}=$", length(o-d)/scale);
-write("$v_{D/C}=$", length(d-c)/scale);
-write("$v_{C/O}=$", length(c-o)/scale);
+real aScale = 10;
 
+pair vecBA_acc = pointB - pointA;
+pair unitBA_acc = unit(vecBA_acc);
+real aBA_len = 23.7 * aScale;
+pair acc_b = acc_origin - aBA_len * unitBA_acc;
+draw(acc_origin--acc_b, red, Arrow(8));
+dot("$b$", acc_b);
+write(acc_b);
 
+pair vecBb = vel_b1 - vel_b;
+pair unitCor = unit(rotate(90) * vecBb);
+real aCor_len = 6.45 * aScale;
+pair acc_x = acc_b + aCor_len * unitCor;
+draw(acc_x--acc_b, gray+dashed);
+draw(acc_x--acc_b, gray, Arrow(8));
+dot("$x$", acc_x, SW);
 
+pair vec_rad = acc_b - acc_x;
+pair unit_rad = unit(rotate(90) * vec_rad);
+real aRad_len = 20 * aScale;
+pair acc_b1 = acc_x + aRad_len * unit_rad;
+draw(acc_x--acc_b1, gray+dashed);
 
-/// Acccleration diagram
-//polar point
-pair o = (-400,400);
-dot("$o, a$", o);
+pair unitBO = unit(pointB - origin);
+real aB1_rad_len = 4.62 * aScale;
+pair acc_y = acc_origin - aB1_rad_len * unitBO;
+draw(acc_origin--acc_y, gray, Arrow(8));
+dot("$y$", acc_y);
 
-scale = 10;
+pair unit_y = unit(rotate(90) * (acc_y - acc_origin));
+real aTang_len = 100;
+pair acc_p = acc_y + aTang_len * unit_y;
+draw(acc_y--acc_p, gray+dashed);
 
-// normal component of VB/A
-pair v = B - A;
-pair u = unit(v);
-real len =  23.7*scale;
-pair a_b = o - len*u;
-draw(o--a_b, gray, Arrow(8));
-dot("$b$", a_b);
-write(a_b);
+pair acc_b2 = intersectionpoint(acc_x--acc_b1, acc_y--acc_p);
+dot("$b_2$", acc_b2);
+draw(acc_y--acc_b2, gray, Arrow(8));
 
-// The acceleration of slider 𝐵 relative to coincident point 𝐵′ on link 𝑂𝐶 has two
-//perpendicular components
-// bx corolis component
-pair v = b1 -b;
-pair n = unit(rotate(90)*v);
-real len =  6.45 * scale;
-pair x = a_b + len*n;
-draw(x -- a_b, gray+dashed);
-dot("$x$", x);
+draw(acc_origin--acc_b2, gray);
+draw(acc_b2--acc_b, red, Arrow(8));
+draw(acc_b2--acc_x, gray, Arrow(8));
 
-//radia component 
-pair v = a_b - x ;
-pair n = unit(rotate(90)*v);
-real len =  20 * scale;
-pair a_b2 = x + len*n;
-draw(x -- a_b2, gray+dashed);
+pair dir_acc = unit(acc_b2 - acc_origin);
+real acc_c_len = (length(pointC-origin)/length(pointB-origin))*length(acc_b2-acc_origin);
+pair acc_c = acc_origin + acc_c_len * dir_acc;
+dot("$c$", acc_c);
+draw(acc_origin--acc_c, gray, Arrow(8));
 
-//acceleration of coincident point 𝐵′ with respect to 𝑂 
-// radia comp
-pair v = B - O;
-pair u = unit(v);
-real len = 4.62 * scale;
-pair y = o - len*u;
-draw(o--y, gray, Arrow(8));
-dot("$y$", y);
+pair unit_CD = unit(pointC - pointD);
+real acc_z_len = 1.01 * aScale;
+pair acc_z = acc_c + acc_z_len * unit_CD;
+draw(acc_c--acc_z, gray+dashed, Arrow(8));
 
-// tangential comp
-pair v = y -o;
-pair n = unit(rotate(90)*v);
-real len = 100;
-pair p =y+len*n;
-draw(y--p, gray+dashed);
+pair unit_norm = unit(rotate(90) * (acc_z - acc_c));
+real acc_d1_len = 50;
+pair acc_d1 = acc_z - acc_d1_len * unit_norm;
+draw(acc_z--acc_d1, gray+dashed);
 
-// locate a_b2
-pair a_b2 = intersectionpoint(x--a_b2, y--p);
-dot("$b_2$", a_b2);
-draw(y--a_b2, gray, Arrow(8));
+pair unit_horiz = unit(rotate(-90) * (pointD + (30,0)));
+real acc_d_line_len = 100;
+pair acc_d_line = acc_origin + acc_d_line_len * unit_horiz;
+draw(acc_origin--acc_d_line, gray+dashed);
 
-// draw
-draw(o--a_b2, gray);
+pair acc_d = intersectionpoint(acc_z--acc_d1, acc_origin--acc_d_line);
+dot("$d$", acc_d);
+
+write(length(acc_y - acc_b2)/aScale);
+
+// export acceleration diagram without opening viewer
+shipout("acceleration", accp, Portrait, "pdf", false, false);
+

@@ -1,14 +1,16 @@
 // ============================================================
 //  Involute Spur-Gear Construction  (Shigley's  Ch. 13)
-//  N2 = 20,  N3 = 40,  Pd = 10 teeth/in,  phi = 20 deg
+//  module = 10 mm, addendum = 1 module, 20° pressure angle
+//  pinion N2 = 13 teeth, gear N3 = 50 teeth
+//  diametral pitch Pd = 25.4/10 = 2.54 teeth/in
 // ============================================================
 import graph;
 unitsize(2.8cm);
 
 // ── Parameters ───────────────────────────────────────────────
-real phi = 20 * pi / 180;            // pressure angle  (rad)
-int  N2  = 40,  N3  = 40;            // tooth counts
-real Pd  = 4.2333;                      // diametral pitch (teeth/in)
+real phi = 20 * pi / 180;            // pressure angle (rad)
+int  N2  = 13,  N3  = 50;            // tooth counts (pinion N2, gear N3)
+real Pd  = 25.4 / 10;                // diametral pitch (teeth/in) for module=10 mm
 
 // ── Derived geometry ─────────────────────────────────────────
 real R2   = N2  / (2.0*Pd);           // pitch radii
@@ -20,6 +22,13 @@ real ded  = 1.25 / Pd;                // dedendum
 real Ra2  = R2 + a;    real Ra3 = R3 + a;
 real Rd2  = R2 - ded;  real Rd3 = R3 - ded;
 real inv_phi = tan(phi) - phi;        // involute function at phi
+
+// ── interference check for pinion with addendum = 1 module ──
+real ha = 1.0; // addendum factor
+real Nmin = 2 * ha * cos(phi) / (sin(phi)^2);
+write("minimum pinion teeth to avoid interference (ha="+string(ha)+"): "+string(Nmin));
+if (N2 < Nmin) write("*** interference expected on pinion (N2="+string(N2)+")");
+else write("no interference for pinion");
 
 // ── Gear centres (pitch circles tangent at origin) ───────────
 pair O2 = (-R2, 0);                   // pinion
@@ -234,4 +243,9 @@ arrowlabel("$B$", B  +(0.5, -0.36),  B +(0,0),   darkgreen);
 arrowlabel("$C$", C  +(-0.88,-0.20),  C +(0,0),   orange);
 arrowlabel("$D$", D + (0.5, -0.36), D + (0,0), orange);
 
+// ── zoom: crop to the mesh zone around P ───────────────────────────
+// zoomRadius is in drawing units; 1 unit ≈ pitch radius of one tooth.
+// Increase to show more teeth, decrease to focus tighter on P.
+real zoomRadius = 1.5;  // shows ~2-3 teeth either side of the mesh
+clip(currentpicture, box((-zoomRadius,-zoomRadius),(zoomRadius,zoomRadius)));
 

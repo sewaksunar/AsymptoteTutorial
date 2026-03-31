@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+
+\title{Velocity and Acceleration Analysis}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Problem Description}
+
+This document presents the velocity and acceleration analysis of a four-bar linkage mechanism using both graphical (Asymptote diagrams) and analytical methods.
+
+\section*{Generated Diagrams}
+
+The analysis produces three separate diagrams from a single Asymptote file (\texttt{q3-2.asy}):
+
+\begin{enumerate}
+  \item \textbf{q3-2-space.pdf} — Mechanism geometry showing the spatial configuration of all links and pivot points
+  \item \textbf{q3-2-velocity.pdf} — Velocity polygon diagram using graphical analysis methods
+  \item \textbf{q3-2-acceleration.pdf} — Acceleration polygon diagram using graphical analysis methods
+\end{enumerate}
+
+\section*{Analysis Results}
+
+\subsection*{Point B Location}
+
+The slider point $B$ is located at:
+$$B = (228.7969195251, 661.5526960234) \text{ mm}$$
+
+\subsection*{Velocity Analysis}
+
+The input link (link 2) rotates at a constant angular velocity (60 RPM).
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+\textbf{Parameter} & \textbf{Value} \\\\
+\hline
+$\omega_2$ (Input angular velocity) & 6.28318530717959 rad/s \\\\
+$v_{A_2/O_2}$ (Velocity at $A$ on link 2) & 1099.5574287564275 mm/s \\\\
+$v_{A_4/O_4}$ (Velocity at $A$ on link 4) & 910.73802522663527 mm/s \\\\
+$v_{A_2/A_4}$ (Relative velocity) & 616.10290418057082 mm/s \\\\
+$\omega_4$ (Angular velocity of link 4) & 6.57220835691986 rad/s \\\\
+\hline
+\end{tabular}
+\caption{Velocity Analysis Results}
+\end{table}
+
+\subsection*{Acceleration Analysis}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+\textbf{Parameter} & \textbf{Value} \\\\
+\hline
+$a^n_{A_2/O_2}$ (Centripetal acceleration at $A$ on link 2) & 6908.72308076254831 mm/s$^2$ \\\\
+$a^n_{A_4/O_4}$ (Centripetal acceleration at $A$ on link 4) & 5985.56006035918017 mm/s$^2$ \\\\
+$a^c_{A_2/A_4}$ (Coriolis acceleration) & 8098.31331115628382 mm/s$^2$ \\\\
+$a^t_{A_4/O_4}$ (Tangential acceleration at $A$ on link 4) & 11969.40202641432734 mm/s$^2$ \\\\
+$\alpha_4$ (Angular acceleration of link 4) & 86.37544699614139 rad/s$^2$ \\\\
+$a_{A_4/O_4}$ (Total acceleration at $A$ on link 4) & 13382.58249016602895 mm/s$^2$ \\\\
+\hline
+\end{tabular}
+\caption{Acceleration Analysis Results}
+\end{table}
+
+\subsection*{Slider Point B Acceleration}
+
+At the slider point $B$:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+\textbf{Component} & \textbf{Value} \\\\
+\hline
+$a^n_B$ (Normal acceleration component) & 30235.74588073705308 mm/s$^2$ \\\\
+$a^t_B$ (Tangential acceleration component) & 60462.81289729897253 mm/s$^2$ \\\\
+$a_B$ (Total acceleration magnitude) & 67601.42063905381656 mm/s$^2$ \\\\
+\hline
+\end{tabular}
+\caption{Point B Acceleration}
+\end{table}
+
+\section*{Key Relationships}
+
+The analysis is based on the following kinematic relationships:
+
+\textbf{Velocity:}
+\begin{align*}
+v &= \omega \cdot r \\\\
+v_{rel} &= v_1 - v_2
+\end{align*}
+
+\textbf{Acceleration (components):}
+\begin{align*}
+a^n &= \omega^2 \cdot r \quad \text{(centripetal)} \\\\
+a^t &= \alpha \cdot r \quad \text{(tangential)} \\\\
+a^c &= 2\omega_1 \cdot v_{rel} \quad \text{(Coriolis)} \\\\
+a_{total} &= \sqrt{(a^n)^2 + (a^t)^2}
+\end{align*}
+
+\section*{Notes}
+
+\begin{itemize}
+  \item All distances are measured in millimeters (mm)
+  \item All velocities are in mm/s
+  \item All accelerations are in mm/s$^2$
+  \item All angular quantities are in radians per second (rad/s) or rad/s$^2$
+  \item The mechanism analysis assumes constant input angular velocity
+  \item Point $A$ is the connection between links 2 and 4
+  \item Point $B$ is the slider constrained to move along link 4
+\end{itemize}
+
+\end{document}

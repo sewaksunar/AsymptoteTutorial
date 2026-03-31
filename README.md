@@ -1,6 +1,8 @@
 # AsymptoteTutorial
 A student-led exploration of 2D and 3D graphics, mathematical figures, and animations using Asymptote. This repository documents my personal learning journey and aims to help other students and educators understand how to create clear, scalable diagrams for math, science, and technical communication.
 
+
+
 ### 📁 File Structures / Diretrix
 
 ```text
@@ -29,7 +31,25 @@ A student-led exploration of 2D and 3D graphics, mathematical figures, and anima
 |   |   |-- morphing_shapes.asy
 |   |   |-- ...
 |   |-- assets/                - Supporting media files
-|       |-- images/
-|       |-- gifs/
+|   |   |-- images/
+|   |   |-- gifs/
+|   |
+|   |-- Gear
+|   |   |-- Spur
+|   |
+|   |-- Kinematics
+|   |   |-- Accleration
+|   |   |-- Velocity
+|   |   |   |-- Graphical Method 
+|   |   |   |-- Instanteneious Center
+|   |   |
+|   |   |-- Accleration
+|   |
+|   |-- Kinetics
+|   |   |-- Staics
+|   |   |-- Dynamics 
+|   |   |   |-- Balancing
+|   |   |       |-- Graphical Method
+|   |   |-- 
 
 ```

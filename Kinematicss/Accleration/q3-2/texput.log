@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=latex 2026.3.11)  30 MAR 2026 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=latex 2026.3.11)  31 MAR 2026 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,7 +212,8 @@ File: l3backend-dvips.def 2025-06-09 L3 backend support: dvips
 \g__pdfannot_backend_int=\count295
 \g__pdfannot_backend_link_int=\count296
 \g__pdfannot_backend_link_sf_int=\count297
-) (texput.aux)
+)
+No file texput.aux.
 \openout1 = `texput.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 0.
@@ -250,18 +251,39 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$O$}
+*\setbox\ASYbox=\hbox{$O_2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.30602pt)dim
+>dim(13.72969pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
+>dim(1.79999pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
 
 *\fontsize{12}{14.4}\selectfont%
 
@@ -313,70 +335,7 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$C$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.26823pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$D$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.08214pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$D$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.08214pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$1$}
+*\setbox\ASYbox=\hbox{$4$}
 
 *
 (Please type a command or say `\end')
@@ -418,6 +377,27 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *
 (Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$1$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
 *\setbox\ASYbox=\hbox{$3$}
 
 *
@@ -439,774 +419,31 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$4$}
+*\setbox\ASYbox=\hbox{$O_2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.87494pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.73332pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$5$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.87494pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.73332pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$o,a$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(17.08034pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(2.33331pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$b$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(4.99576pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.33331pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{B_{2}/A}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(36.4923pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{? \checkmark}{v}_{B_{2}/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.6624pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{? \checkmark}{v}_{B_{2}/B_{4}}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.55457pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$b_{4}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.74582pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.33331pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(1.79999pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{B_{4}/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.2834pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{B_{2}/B_{4}}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(41.17557pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$c$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.05687pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{C/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.0929pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{D/C}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(30.2319pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{D/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(30.29413pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$d$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.1055pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.33331pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{D/C}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.8529pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{D/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.91513pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$o,a$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(17.08034pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(2.33331pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^n_{B/A}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(32.72012pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$p$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.89717pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(2.33331pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}a^c_{B_{2}/B_{4}}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(41.17557pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$q$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.64023pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(2.33331pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^n_{B_{4}/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.2834pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$r$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.62148pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{a}^t_{B_{2}/B_{4}}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.55457pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(16.07619pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{a}^t_{B_{4}/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.6624pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(16.07619pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$s$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.53468pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^t_{B_{4}/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.2834pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(16.03174pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^t_{B_{2}/B_{4}}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(41.17557pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(16.03174pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}_{B/A}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(32.72012pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$c$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.05687pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}_{C/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.0929pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$z$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.993pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^n_{D/C}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.8529pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{a}^t_{D/C}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(30.2319pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(16.07619pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{a}_{D/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(30.29413pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$O$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.30602pt)dim
+>dim(13.72969pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
+>dim(1.79999pt)dim
+
+*\setbox\ASYbox=\hbox{$O_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
 
 *\setbox\ASYbox=\hbox{$A$}
 
@@ -1234,46 +471,7 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$C$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.26823pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{$D$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.08214pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{$D$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.08214pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{$1$}
+*\setbox\ASYbox=\hbox{$4$}
 
 *
 (Please type a command or say `\end')
@@ -1299,6 +497,19 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
+*\setbox\ASYbox=\hbox{$1$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
 *\setbox\ASYbox=\hbox{$3$}
 
 *
@@ -1308,6 +519,381 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(8.80824pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.53186pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$1$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$3$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$o$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.64853pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.16667pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{A_2/O_2}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.27777pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(37.54846pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.32222pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{A_2/A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(36.99347pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.32222pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$b$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(4.99576pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.33331pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark \checkmark}{v}_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.27777pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{A_2/A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(40.61447pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.27777pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
+
+*\setbox\ASYbox=\hbox{$O_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
+
+*\setbox\ASYbox=\hbox{$A$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(8.80824pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$B$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.53186pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -1325,7 +911,7 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$5$}
+*\setbox\ASYbox=\hbox{$2$}
 
 *
 (Please type a command or say `\end')
@@ -1338,18 +924,83 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$o,a$}
+*\setbox\ASYbox=\hbox{$1$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(17.08034pt)dim
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$3$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$o$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.64853pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(5.16667pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(2.33331pt)dim
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{A_2/O_2}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.27777pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(37.54846pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.32222pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{A_2/A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(36.99347pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.32222pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
 
 *\setbox\ASYbox=\hbox{$b$}
 
@@ -1364,12 +1015,12 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{B_{2}/A}$}
+*\setbox\ASYbox=\hbox{$\overset{\checkmark \checkmark}{v}_{A_4/O_4}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(36.4923pt)dim
+>dim(41.16946pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(14.27777pt)dim
@@ -1377,168 +1028,662 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(3.86668pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{? \checkmark}{v}_{B_{2}/O}$}
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{A_2/A_4}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.6624pt)dim
+>dim(40.61447pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
+>dim(14.27777pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(3.86668pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{? \checkmark}{v}_{B_{2}/B_{4}}$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.55457pt)dim
+>dim(13.72969pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\setbox\ASYbox=\hbox{$b_{4}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.74582pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.33331pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(1.79999pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{B_{4}/O}$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_4$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.2834pt)dim
+>dim(13.72969pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
+>dim(1.79999pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{B_{2}/B_{4}}$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(41.17557pt)dim
+>dim(8.80824pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\setbox\ASYbox=\hbox{$c$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.05687pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{C/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.0929pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{D/C}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(30.2319pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{v}_{D/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(30.29413pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.32222pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
-
-*\setbox\ASYbox=\hbox{$d$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(6.1055pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.33331pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{D/C}$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.8529pt)dim
+>dim(9.53186pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$1$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$3$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$o_2, o_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(26.061pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.16667pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.33331pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^n_{A_2/O_2}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(17.58887pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$a^n_2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(11.82545pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.79915pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^n_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(17.58887pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$a^n_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(11.82545pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.79915pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^c_{A_2 A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(36.83664pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(17.58887pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.0777pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$a^c_{43}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(15.1681pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.79915pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{A}^t_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(37.54846pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(19.10951pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{A}^t_{A_2/A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(36.99347pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(19.10951pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$a_4, a_2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(27.09991pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(5.16667pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.33331pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^t_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(19.06506pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^t_{A_2/A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(40.61447pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(19.06506pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(17.3111pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(3.86668pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^n_{B}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(22.57553pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(14.55554pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^t_{B}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(22.57553pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(16.03174pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}_{B}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(22.57553pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(14.27777pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
+>dim(1.79999pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{v}_{D/O}$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(33.91513pt)dim
+>dim(9.53186pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.27777pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.86668pt)dim
+>dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$o,a$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$O_2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(17.08034pt)dim
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
+
+*\setbox\ASYbox=\hbox{$O_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(13.72969pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(1.79999pt)dim
+
+*\setbox\ASYbox=\hbox{$A$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(8.80824pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$B$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.53186pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$1$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$3$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\setbox\ASYbox=\hbox{$o_2, o_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(26.061pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(5.16667pt)dim
@@ -1546,25 +1691,116 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(2.33331pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^n_{B/A}$}
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^n_{A_2/O_2}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(32.72012pt)dim
+>dim(41.16946pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
+>dim(17.58887pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(4.9666pt)dim
 
-*\setbox\ASYbox=\hbox{$p$}
+*\setbox\ASYbox=\hbox{$a^n_2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.89717pt)dim
+>dim(11.82545pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.79915pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^n_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(41.16946pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(17.58887pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\setbox\ASYbox=\hbox{$a^n_4$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(11.82545pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.79915pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^c_{A_2 A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(36.83664pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(17.58887pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.0777pt)dim
+
+*\setbox\ASYbox=\hbox{$a^c_{43}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(15.1681pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.79915pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(2.9666pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{A}^t_{A_4/O_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(37.54846pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(19.10951pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\setbox\ASYbox=\hbox{$\overset{?\checkmark}{A}^t_{A_2/A_4}$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(36.99347pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(19.10951pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(4.9666pt)dim
+
+*\setbox\ASYbox=\hbox{$a_4, a_2$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(27.09991pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
 >dim(5.16667pt)dim
@@ -1572,46 +1808,21 @@ LaTeX Font Info:    ... okay on input line 0.
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(2.33331pt)dim
 
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}a^c_{B_{2}/B_{4}}$}
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^t_{A_4/O_4}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(41.17557pt)dim
+>dim(41.16946pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
+>dim(19.06506pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(4.9666pt)dim
 
-*\setbox\ASYbox=\hbox{$q$}
+*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{A}^t_{A_2/A_4}$}
 
 *
 (Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.64023pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.16667pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(2.33331pt)dim
-
-*\setbox\ASYbox=\hbox{$\overset{\checkmark\checkmark}{a}^n_{B_{4}/O}$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(37.2834pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(14.55554pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(4.9666pt)dim
-
-*\setbox\ASYbox=\hbox{$r$}
-
-*
-(Ple
+*\immedi

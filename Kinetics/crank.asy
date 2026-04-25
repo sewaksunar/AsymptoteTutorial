@@ -136,6 +136,11 @@ draw(forceF14_poly, 1pt+black+dashed, Arrow(15pt));
 pair I = intersectionpoint(forceF14_poly, forceF34_poly);
 dot("$I$", I, S);
 
-draw(ptP_poly--I, 3pt+black, Arrow(15pt));
+path forceF34 = ptP_poly--I;
+draw(forceF34, 3pt+black, Arrow(15pt));
 
-draw(I--pole, 3pt+black, Arrow(15pt));
+path forceF14 = I--pole;
+draw(forceF14, 3pt+black, Arrow(15pt));
+
+write("F_{34} =" + string(length(forceF34)));
+write("F_{14} =" + string(length(forceF14)));

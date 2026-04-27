@@ -1,27 +1,49 @@
 settings.outformat = "pdf";
 import fontsize;
 import geometry;
+include "geometry_utils.asy";
 
-
-path bountry = square((0,0), 20cm);
-draw(bountry, dashed+gray);
+// Setup canvas
+path boundary = square((0,0), 20cm);
+draw(boundary, dashed+gray);
 
 pair center = (10 cm, 10 cm);
-real radius = 5 cm;
-draw(circle(center, radius), black+1.5pt);
-dot("$O$", center, S);
 
-pair ptA = center + radius*dir(45);
-dot("$A$", ptA, W);
+// Base circle (for involute profile)
+real rb = 5 cm;
+path baseCircle = circle(center, rb);
+draw(baseCircle, dashed+red);
 
-// vertical from O
-pair ptV = center + 2*radius*dir(90);
-dot("$V$", ptV, N);
-draw(center--ptV, black+1.5pt+dashed);
+// Reference central line passing via center (vertical)
+pair ptR = center + 2*rb*dir(100);
+draw(center--ptR, 1pt+black);
+dot("$R$", ptR, N);
+
+// Pitch circle (defines tooth profile reference)
+real rp = 5.5cm;
+path pitchCircle = circle(center, rp);
+draw(pitchCircle, dashed+blue);
+
+// pitch point defiing line
+pair ptP = center + 2*rb*dir(105);
+draw(center--ptP, 1pt+black+dashed);
+dot("$R$", ptR, N);
+
+// Point P on pitch circle (at intersection with reference line) - HIGH ACCURACY
+pair[] intersections = pathIntersection(pitchCircle, center--ptP);
+pair ptP = (intersections.length > 1) ? intersections[1] : intersections[0];
+dot("$P$", ptP, NW);
 
 
-// tangent from A to circle
-pair perpAO = unit(center - ptA)*dir(90);
-pair ptT = ptA - 1.5*radius*perpAO;
-dot("$T$", ptT, N);
-draw(ptA--ptT, black+1.5pt);
+
+// Tangent to base circle on left, passing via P
+pair ptT_left = tangentPointToCircle(center, rb, ptP, "left");
+dot("$T_L$", ptT_left, SE);
+
+// Extend line from T through P
+pair dir_TP = unit(ptP - ptT_left);
+pair ptExtended = ptP + 1.5cm * dir_TP;
+draw(ptT_left--ptExtended, black+1.5pt);
+
+// locus circle 
+real arc = arcLengthByAngle(5cm, 45);

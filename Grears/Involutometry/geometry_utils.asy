@@ -101,3 +101,19 @@ real arcDistanceFromPoints(pair O, pair P1, pair P2) {
 real arcDistance(real r, real angle_deg) {
   return arcLengthByAngle(r, angle_deg);
 }
+
+real inv(real t){
+  return tan(t)-t;
+}
+// ===================
+// r = teeth thickness  
+// rp = radius of pitch circle
+// tp = given (thickness of tooth at pitch circle)
+// pphi = pressure angle pressure angle corresponding to the pitch circle radius rp
+// shi = involute angle corresponding to point T
+// ============
+
+real thickness(real r, real tp, real rp, real pphi, real shi){
+  real t = 2*r*(tp/(2*rp) + inv(pphi) - inv(shi));
+  return t;
+}

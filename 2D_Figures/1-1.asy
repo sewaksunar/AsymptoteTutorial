@@ -1,28 +1,14 @@
-import geometry;
-size(7cm,0);
-settings.tex="pdflatex";
-
 // Place A and B on x-axis
 pair A = (0,0);
-pair B = (4,0); // AB is horizontal
-path ab = A--B;
-transform T = shift(-4,-2);
-transform t = shift(4,0);
-// Place C such that AC makes 30° and BC makes 120° with x-axis
-pair C = extension(A, A + dir(30), B, B + dir(120)); // Intersection of rays
+pair B = (4,0);
 
-pair M = (A + B) / 2; // Midpoint of AB
-// Draw triangle ABC
+// Place C
+pair C = (1, 3);
+
+pair M = (A + B) / 2;
+
+// Draw triangle
 draw(A--B--C--cycle);
-
-// Draw median AM
-draw(C--M, blue + dashed);
-
-
-dot("$A$", A, SW, red);
-dot("$B$", B, SE, red);
-dot("$C$", C, N, red);
-dot("$M$", M, S, red);
 
 // Label vertices
 label("$A$", A, SW, red);
@@ -38,7 +24,7 @@ label("$M$", M, S, red);
 
 // // Angle marker at C using perpendicular()
 // label("$\angle C$", C + (-0.1, -0.4), blue); // offset label a bit up-right
-perpendicular(C,NE,C--A,blue);
+// perpendicular(C,NE,C--A,blue);
 // ----------- Custom Line Marker Function -----------
 void LineMarker(path p, int n=1, real len=0.15, pen tickpen=black) {
   // p: the path (line segment)

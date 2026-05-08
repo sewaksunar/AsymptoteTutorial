@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=latex 2026.5.7)  8 MAY 2026 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.7)  8 MAY 2026 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,10 +46,10 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\dvips.def
-File: dvips.def 2025/01/21 v3.2a Graphics/color driver for dvips
+(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
@@ -67,56 +67,12 @@ File: dvips.def 2025/01/21 v3.2a Graphics/color driver for dvips
 
 *\setbox\ASYbox=\hbox{#2}\lower\ASYdimen\box\ASYbox}
 
-*\makeatletter
-
-*\def\Ginclude@eps#1{%
-
-* \message{<#1>}%
-
-*  \bgroup
-
-*  \def\@tempa{!}%
-
-*  \dimen@\Gin@req@width
-
-*  \dimen@ii.1bp%
-
-*  \divide\dimen@\dimen@ii
-
-*  \@tempdima\Gin@req@height
-
-*  \divide\@tempdima\dimen@ii
-
-*    \special{PSfile=#1\space
-
-*      llx=\Gin@llx\space
-
-*      lly=\Gin@lly\space
-
-*      urx=\Gin@urx\space
-
-*      ury=\Gin@ury\space
-
-*      \ifx\Gin@scalex\@tempa\else rwi=\number\dimen@\space\fi
-
-*      \ifx\Gin@scaley\@tempa\else rhi=\number\@tempdima\space\fi
-
-*      \ifGin@clip clip\fi}%
-
-*  \egroup}
-
-*\makeatother
-
 *\begin{document}
 
-(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-dvi
-ps.def
-File: l3backend-dvips.def 2026-02-18 L3 backend support: dvips
-\l__pdfannot_backend_content_box=\box54
-\l__pdfannot_backend_model_box=\box55
-\g__pdfannot_backend_int=\count283
-\g__pdfannot_backend_link_int=\count284
-\g__pdfannot_backend_link_sf_int=\count285
+(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
 ) (texput.aux)
 \openout1 = `texput.aux'.
 
@@ -135,6 +91,31 @@ LaTeX Font Info:    ... okay on input line 0.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 0.
 LaTeX Font Info:    ... okay on input line 0.
 
+(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count284
+\scratchdimen=\dimen154
+\scratchbox=\box54
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen155
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks19
+)
+(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\sewak\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 *\makeatletter%
 
 *\let\ASYencoding\f@encoding%
@@ -147,4 +128,189 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *\makeatother%
 
-*\fontsize{12}{14.4}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 0.
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(8.80824pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.53186pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$C$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.26823pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$M$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(12.62076pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(8.80824pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.53186pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$C$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.26823pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$M$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(12.62076pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
+
+*
+(Please type a command or say `\e

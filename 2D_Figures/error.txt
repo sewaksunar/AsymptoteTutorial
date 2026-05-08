@@ -1,0 +1,10 @@
+﻿asy :     pic.addBox(position,position,min(f),max(f));
+At line:1 char:1
++ asy -f pdf 1-1.asy 2>&1 | Out-File error.txt -Encoding utf8; Get-Cont ...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (    pic.addBox(...min(f),max(f));:String) [], Remote 
+   Exception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+              ^
+C:\Users\sewak\AppData\Local\Programs\MiKTeX\asymptote/plain_Label.asy: 321.15: runtime: 

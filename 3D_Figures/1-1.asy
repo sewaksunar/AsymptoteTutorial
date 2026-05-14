@@ -1,4 +1,4 @@
-settings.outformat = "html";
+// settings.outformat = "html";
 settings.prc = false;
 size(5cm);
 import three;

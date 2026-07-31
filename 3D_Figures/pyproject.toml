@@ -1,0 +1,18 @@
+[project]
+name = "numerical-methods"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sewak Sunar",email = "sewaksunar@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "numerical_methods", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

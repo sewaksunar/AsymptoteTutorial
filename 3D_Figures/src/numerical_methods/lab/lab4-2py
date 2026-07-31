@@ -1,0 +1,38 @@
+print("Gauss Jordan Method")
+import numpy as np
+
+
+n = int(input("Enter the numbers of variables in the system: "))
+A = []
+print("Enter the augumented matrix:")
+for i in range(n):
+    A.append(list(map(float, input(f"Enter the elements of {i+1}the row:").split())))
+
+A = np.array(A)
+print(f"Input Augmented Matrix:\n{A}")
+
+for i in range(n):
+    if A[i, i] == 0:
+        for j in range(i+1, n):
+            if A[j, i] != 0:
+                A[[i, j]] = A[[j, i]]
+            else:
+                print("System is inconsistent")
+                exit(0)
+
+    if A[i, i] != 0:
+        A[i] = A[i]/A[i][i]
+    
+    for j in range(n): 
+        if j != i and A[j, i] != 0:
+            A[j] = A[j] - A[j][i] * A[i] 
+
+print("Nomral matirx A")
+print(A)
+for i in range(n):
+    x = A[:, -1:]
+# print(f"Requresd solution: \n x = {x}")
+
+for i in range(n):
+    print(f"x[{i}] =", x[i][0], end="; ")
+

@@ -1,0 +1,401 @@
+/* Professional Numerical Methods Documentation Styling - Dark Theme */
+
+:root {
+    --primary-color: #1a1a2e;
+    --primary-light: #16213e;
+    --accent-color: #00d4ff;
+    --accent-dark: #0099cc;
+    --text-color: #2c3e50;
+    --text-light: #666;
+    --light-bg: #f8f9fa;
+    --dark-bg: #1a1a2e;
+    --border-color: #e1e4e8;
+}
+
+/* Sidebar Styling */
+.wy-side-nav-search {
+    background: var(--primary-color);
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.wy-side-nav-search > a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.wy-side-nav-search .wy-dropdown > a {
+    color: #ecf0f1;
+}
+
+.wy-side-nav-search input[type="text"] {
+    border-radius: 4px;
+    background: rgba(0, 212, 255, 0.2);
+    color: white;
+    border: 1px solid var(--accent-color);
+}
+
+.wy-side-nav-search input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.wy-side-nav-search input[type="text"]:focus {
+    background: rgba(0, 212, 255, 0.3);
+    outline: none;
+}
+
+/* Navigation Links */
+.wy-nav-side {
+    background: var(--primary-color);
+}
+
+.wy-nav-side .wy-nav-content-wrap {
+    background: var(--primary-light);
+}
+
+.wy-side-nav-search ~ div {
+    background: var(--primary-color) !important;
+}
+
+.toctree-wrapper {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li.toctree-l1 > a {
+    color: #e0e0e0;
+    font-weight: 500;
+    padding: 0.8em 1.27em;
+    border-left: 3px solid transparent;
+}
+
+.wy-menu.wy-menu-vertical li.toctree-l1 > a:hover {
+    background: rgba(0, 212, 255, 0.15);
+    border-left-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.wy-menu.wy-menu-vertical li.current > a {
+    background: rgba(0, 212, 255, 0.1);
+    border-left-color: var(--accent-color);
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.wy-menu.wy-menu-vertical li.toctree-l1.current {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li.toctree-l1.current > ul {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical > ul {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li ul {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li li {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li li ul {
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li li > a {
+    color: #b0b0b0;
+    font-size: 0.95em;
+    padding: 0.6em 2em;
+    font-weight: 500;
+    background: var(--primary-color) !important;
+}
+
+.wy-menu.wy-menu-vertical li li > a:hover {
+    color: var(--accent-color);
+    background: rgba(0, 212, 255, 0.08) !important;
+}
+
+.wy-menu.wy-menu-vertical li li.current > a {
+    color: var(--accent-color);
+    background: rgba(0, 212, 255, 0.08) !important;
+    font-weight: 600;
+}
+
+.wy-menu.wy-menu-vertical .caption {
+    background: var(--primary-color) !important;
+    color: #00d4ff;
+}
+
+.wy-menu.wy-menu-vertical p.caption {
+    background: var(--primary-color) !important;
+    color: #00d4ff;
+    margin: 1.2em 0 0.5em 0;
+}
+}
+
+.wy-menu.wy-menu-vertical li li li > a {
+    color: #909090;
+    font-size: 0.9em;
+    padding: 0.5em 3em;
+}
+
+.wy-menu.wy-menu-vertical li li li > a:hover {
+    color: var(--accent-color);
+}
+
+/* Main Content Area */
+.wy-nav-content {
+    background: white;
+}
+
+.rst-content {
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+/* Headings */
+.rst-content h1,
+.rst-content h2,
+.rst-content h3,
+.rst-content h4,
+.rst-content h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+    border-bottom: none;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.rst-content h1 {
+    font-size: 2.2em;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.rst-content h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.4em;
+}
+
+.rst-content h3 {
+    font-size: 1.4em;
+}
+
+.rst-content h4 {
+    font-size: 1.1em;
+}
+
+/* Code and Math Styling */
+.rst-content code {
+    background: var(--light-bg);
+    color: #d63384;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.rst-content code.xref,
+.rst-content a code {
+    background: transparent;
+    color: var(--accent-color);
+}
+
+.rst-content pre {
+    background: var(--primary-light);
+    color: #ecf0f1;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    padding: 1em;
+}
+
+/* Tables */
+.rst-content table.docutils {
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+}
+
+.rst-content table.docutils th {
+    background: var(--primary-light);
+    color: var(--accent-color);
+    font-weight: 600;
+    border: 1px solid var(--accent-color);
+}
+
+.rst-content table.docutils td {
+    border: 1px solid var(--border-color);
+    padding: 0.8em;
+}
+
+.rst-content table.docutils tr:nth-child(even) {
+    background: #f9f9fb;
+}
+
+.rst-content table.docutils tr:hover {
+    background: #f0f4f8;
+}
+
+/* Lists */
+.rst-content ol,
+.rst-content ul {
+    margin-bottom: 1.5em;
+}
+
+.rst-content li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+/* Notes and Admonitions */
+.rst-content .note,
+.rst-content .attention,
+.rst-content .caution,
+.rst-content .danger,
+.rst-content .error,
+.rst-content .hint,
+.rst-content .important,
+.rst-content .tip,
+.rst-content .warning {
+    border-left: 4px solid var(--accent-color);
+    background: rgba(0, 212, 255, 0.05);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+.rst-content .admonition-title {
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+/* Links */
+.rst-content a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.rst-content a:hover {
+    color: var(--accent-dark);
+    border-bottom-color: var(--accent-color);
+}
+
+/* Blockquotes */
+.rst-content blockquote {
+    border-left: 4px solid var(--accent-color);
+    background: var(--light-bg);
+    padding: 0.8em 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    background: var(--light-bg);
+    padding: 0.8em 1em;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 1.5em;
+}
+
+.breadcrumbs a {
+    color: var(--accent-color);
+}
+
+/* Footer */
+.rst-footer-buttons {
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+}
+
+.rst-footer-buttons a {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+}
+
+.rst-footer-buttons a:hover {
+    background: var(--accent-dark);
+    color: white;
+    outline: none;
+}
+
+.rst-footer-buttons a:active {
+    outline: none;
+}
+
+/* Remove bounce effects from buttons */
+a.btn, 
+.rst-footer-buttons a,
+button,
+input[type="button"],
+input[type="submit"] {
+    transform: none !important;
+}
+
+a.btn:hover,
+.rst-footer-buttons a:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Navigation buttons (Previous/Next) */
+.btn-neutral {
+    background: var(--accent-color) !important;
+    color: var(--primary-color) !important;
+    border: none !important;
+}
+
+.btn-neutral:hover {
+    background: var(--accent-dark) !important;
+    color: white !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .rst-content h1 {
+        font-size: 1.8em;
+    }
+
+    .rst-content h2 {
+        font-size: 1.4em;
+    }
+
+    .rst-content code {
+        font-size: 0.85em;
+    }
+
+    .wy-menu.wy-menu-vertical li > a {
+        padding: 0.6em 1em;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .wy-nav-side,
+    .rst-versions,
+    .rst-footer-buttons {
+        display: none;
+    }
+
+    .wy-nav-content {
+        margin: 0;
+    }
+}

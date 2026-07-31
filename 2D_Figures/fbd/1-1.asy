@@ -10,7 +10,7 @@ real canvasHeight = 10;
 
 // Draw container canvas (big frame)
 draw((-canvasWidth/2, -canvasHeight/2)--(canvasWidth/2, -canvasHeight/2)--(canvasWidth/2, canvasHeight/2)--(-canvasWidth/2, canvasHeight/2)--cycle, linewidth(2) + blue);
-label("Canvas", (canvasWidth/2 - 1, canvasHeight/2 - 0.5), blue);
+label("Canvas", (canvasWidth/2 - draw();1, canvasHeight/2 - 0.5), blue);
 
 pair center = (0,0);
 real boxSize = 3; // 3cm on each side = 6cm total

@@ -58,3 +58,4 @@ label("-", (4, -0.6));
 // 7. Add connection dots at source junctions [4, 6]
 dot(Top);
 dot(Bottom);
+dot(Top);s
